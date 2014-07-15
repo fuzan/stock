@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import calculator.strategy.Strategy;
-import stock.Stock;
+import entity.stock.Stock;
 
 public class Stocks {
 	

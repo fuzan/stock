@@ -1,10 +1,7 @@
 package view;
 
+import entity.stock.Stock;
 import gainOrLossCalculator.SimpleCalculator;
-
-import java.math.BigDecimal;
-
-import stock.Stock;
 
 public class Main {
 
@@ -91,10 +88,7 @@ public class Main {
 		System.out.print("Gain : ");
 		System.out.println(sc.gainOrLoss(s).gainValue);
 		System.out.print("Gain percentage : ");
-		
-		BigDecimal b = new BigDecimal(sc.gainOrLoss(s).gainPercentage); 
-		float f = b.setScale(2, BigDecimal.ROUND_HALF_UP).floatValue(); 
-		System.out.println(f);
+		System.out.println(sc.gainOrLoss(s).gainPercentage);
 	}
 
 }

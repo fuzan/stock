@@ -2,7 +2,7 @@ package calculator.strategy;
 
 import java.util.Date;
 
-import stock.Stock;
+import entity.stock.Stock;
 
 /**
  *  One strategy can be used by many portfolios.
